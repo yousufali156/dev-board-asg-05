@@ -1,3 +1,9 @@
+// Linked in blog page
+document.getElementById('newtoday').addEventListener('click', function () {
+
+    window.location.href = 'blog.html'
+})
+
 // Change Background Color 
 function changeBgColor() {
 
@@ -57,8 +63,3 @@ function clearHistory() {
     document.getElementById("logContainer").innerHTML = "";
 }
 
-// Linked in blog page
-document.getElementById('newtoday').addEventListener('click', function () {
-
-    window.location.href = 'blog.html'
-})
